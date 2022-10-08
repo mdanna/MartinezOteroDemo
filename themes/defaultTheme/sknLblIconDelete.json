@@ -1,12 +1,12 @@
 {
   "android": {
     "font_name": "Martinez-Otero-Icons",
-    "font_size": 100,
+    "font_size": 150,
     "isForked": false
   },
   "androidwearos": {
     "font_name": "default",
-    "font_size": 100,
+    "font_size": 150,
     "isForked": false
   },
   "background_color": "ffffff00",
@@ -17,81 +17,81 @@
   "border_width": 0,
   "desktopweb": {
     "font_name": "Martinez-Otero-Icons",
-    "font_size": 100,
+    "font_size": 150,
     "isForked": false
   },
   "fontSizeInPx": false,
   "font_color": "c82a1dff",
   "font_name": "iphoneSystem",
-  "font_size": 100,
+  "font_size": 150,
   "font_style": "normal",
   "font_weight": "400",
   "ipad": {
     "font_name": "Martinez-Otero-Icons",
-    "font_size": 100,
+    "font_size": 150,
     "isForked": false
   },
   "iphone": {
     "font_name": "Martinez-Otero-Icons",
-    "font_size": 100,
+    "font_size": 150,
     "isForked": false
   },
   "isDefaultSkin": false,
   "kiosk": {
     "font_name": "Martinez-Otero-Icons",
-    "font_size": 100,
+    "font_size": 150,
     "isForked": false
   },
   "kuid": "s6c93b3482be4c2c8faa0c789c33faba",
   "spaan": {
     "font_name": "Martinez-Otero-Icons",
-    "font_size": 100,
+    "font_size": 150,
     "isForked": false
   },
   "spaandroidtablet": {
     "font_name": "Martinez-Otero-Icons",
-    "font_size": 100,
+    "font_size": 150,
     "isForked": false
   },
   "spaip": {
     "font_name": "Martinez-Otero-Icons",
-    "font_size": 100,
+    "font_size": 150,
     "isForked": false
   },
   "spaipad": {
     "font_name": "Martinez-Otero-Icons",
-    "font_size": 100,
+    "font_size": 150,
     "isForked": false
   },
   "spawindowstablet": {
     "font_name": "Martinez-Otero-Icons",
-    "font_size": 100,
+    "font_size": 150,
     "isForked": false
   },
   "spawinphone8": {
     "font_name": "Martinez-Otero-Icons",
-    "font_size": 100,
+    "font_size": 150,
     "isForked": false
   },
   "tabrcandroid": {
     "font_name": "Martinez-Otero-Icons",
-    "font_size": 100,
+    "font_size": 150,
     "isForked": false
   },
   "wType": "Label",
   "watchos": {
     "font_name": "System",
-    "font_size": 100,
+    "font_size": 150,
     "isForked": false
   },
   "windows8": {
     "font_name": "Martinez-Otero-Icons",
-    "font_size": 100,
+    "font_size": 150,
     "isForked": false
   },
   "winphone8": {
     "font_name": "Martinez-Otero-Icons",
-    "font_size": 100,
+    "font_size": 150,
     "isForked": false
   }
 }

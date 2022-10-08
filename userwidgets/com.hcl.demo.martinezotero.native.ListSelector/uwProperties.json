@@ -2,7 +2,32 @@
     "classname": "ListSelector",
     "definitions": {
         "apis": {
-            "custom": [],
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "bda54254008a4a8fa0ef72b1ba4048a4",
+                    "paramList": [],
+                    "propertyKey": "getSelection",
+                    "pw": {
+                        "displayName": "getSelection",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b4019f0ae6b54165997cf6737123104b",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "hce902e6e6cd47ff8c07e6855292be8e",
+                    "paramList": [],
+                    "propertyKey": "resetSelection",
+                    "pw": {
+                        "displayName": "resetSelection",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b4019f0ae6b54165997cf6737123104b",
+                    "type": "event"
+                }
+            ],
             "passthrough": []
         },
         "events": {
@@ -10,7 +35,9 @@
             "passthrough": []
         },
         "groups": {
-            "apis": [],
+            "apis": [
+                "General"
+            ],
             "events": [],
             "properties": [],
             "widgets": []

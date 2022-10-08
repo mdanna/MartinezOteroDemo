@@ -1,12 +1,16 @@
 define(function() {
 
-	return {
-		constructor: function(baseConfig, layoutConfig, pspConfig) {
+  return {
+    constructor(baseConfig, layoutConfig, pspConfig) {},
 
-		},
-		//Logic for getters/setters of custom properties
-		initGettersSetters: function() {
+    initGettersSetters() {},
 
-		}
-	};
+    getSelection(){
+      return this.view.lbxSelector.selectedKeyValue[1];
+    },
+    
+    resetSelection(){
+      this.view.lbxSelector.selectedKey = null;
+    }
+  };
 });

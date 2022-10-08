@@ -1,0 +1,86 @@
+{
+    "classname": "ButtonIconText",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "f30a0171a92c4836b56f95d5cf3a2f27",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickButton",
+                    "pw": {
+                        "displayName": "onClickButton",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "h19f02250a6345c7b2c6786d9e4b3fd0",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c4fb9752517842e5976a6dcf4bc3c7e3",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "icon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "icon",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblIcon",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e0e48219f5e4466791efa1dbdae78209"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f9b2c4d56f84427680418276eacc4718",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblText",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "aad673f4917c4524ad708ec3f274522d"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.martinezotero.native",
+    "version": "1.0.0"
+}

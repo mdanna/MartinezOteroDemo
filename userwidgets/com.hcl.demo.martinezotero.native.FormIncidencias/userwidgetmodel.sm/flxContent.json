@@ -44,7 +44,7 @@
         "fieldSolucionado",
         "fieldMinutos",
         "fieldPhotoList",
-        "btnLogin"
+        "buttonGuardar"
     ],
     "clipbounds": true,
     "containerweight": 100,

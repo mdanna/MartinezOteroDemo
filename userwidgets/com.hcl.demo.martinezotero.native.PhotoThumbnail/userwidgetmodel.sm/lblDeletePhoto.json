@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "24dp"
+        "value": "22dp"
     },
     "_margin_": [
         1,
@@ -21,7 +21,7 @@
     "_text_": "4",
     "_width_": {
         "type": "string",
-        "value": "24dp"
+        "value": "22dp"
     },
     "_wrapping_": 2,
     "android": {

@@ -80,6 +80,20 @@
                         "wType": "TextArea"
                     },
                     "srcWgtKUID": "a29e8200c5cf4d7193e70831b5cb40cd"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "originalPropertyKey": "placeholderSkin",
+                    "propertyIndex": 4,
+                    "propertyKey": "placeholderSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Placeholder",
+                        "wType": "TextArea"
+                    },
+                    "srcWgtKUID": "a29e8200c5cf4d7193e70831b5cb40cd"
                 }
             ]
         },

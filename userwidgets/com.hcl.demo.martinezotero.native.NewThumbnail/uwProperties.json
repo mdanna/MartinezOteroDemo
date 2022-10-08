@@ -2,36 +2,7 @@
     "classname": "NewThumbnail",
     "definitions": {
         "apis": {
-            "custom": [
-                {
-                    "group": "General",
-                    "kuid": "c133ab2c51a649999155f97e34b18abf",
-                    "paramList": [
-                        {
-                            "name": "base64"
-                        }
-                    ],
-                    "propertyKey": "setPhoto",
-                    "pw": {
-                        "displayName": "setPhoto",
-                        "uiRepresentation": "Label-Label-Button-Button"
-                    },
-                    "srcWgtKUID": "d0af4be4f6d6484f87dda55c4fc7a00b",
-                    "type": "event"
-                },
-                {
-                    "group": "General",
-                    "kuid": "fc180fade02748dca65e064467e653c7",
-                    "paramList": [],
-                    "propertyKey": "initComponent",
-                    "pw": {
-                        "displayName": "initComponent",
-                        "uiRepresentation": "Label-Label-Button-Button"
-                    },
-                    "srcWgtKUID": "d0af4be4f6d6484f87dda55c4fc7a00b",
-                    "type": "event"
-                }
-            ],
+            "custom": [],
             "passthrough": []
         },
         "events": {
@@ -47,59 +18,7 @@
             "widgets": []
         },
         "properties": {
-            "custom": [
-                {
-                    "access": "Write",
-                    "defaultValue": "",
-                    "group": "General",
-                    "kuid": "b0904385088b466e9448cb61fe267985",
-                    "originalPropertyKey": "recordKey",
-                    "propertyIndex": 1,
-                    "propertyKey": "recordKey",
-                    "pw": {
-                        "dependencyConditions": {},
-                        "displayName": "recordKey",
-                        "uiRepresentation": "Label-Textbox"
-                    },
-                    "srcWgtKUID": "d0af4be4f6d6484f87dda55c4fc7a00b",
-                    "type": "string",
-                    "value": ""
-                },
-                {
-                    "access": "Write",
-                    "defaultValue": "",
-                    "group": "General",
-                    "kuid": "a228ed6ec5aa4080b5f8fafec96827ce",
-                    "originalPropertyKey": "sectionKey",
-                    "propertyIndex": 2,
-                    "propertyKey": "sectionKey",
-                    "pw": {
-                        "dependencyConditions": {},
-                        "displayName": "sectionKey",
-                        "uiRepresentation": "Label-Textbox"
-                    },
-                    "srcWgtKUID": "d0af4be4f6d6484f87dda55c4fc7a00b",
-                    "type": "string",
-                    "value": ""
-                },
-                {
-                    "access": "Write",
-                    "defaultValue": "",
-                    "group": "General",
-                    "kuid": "be1234c65f8a4458aceca30f90b0089a",
-                    "originalPropertyKey": "reportKey",
-                    "propertyIndex": 3,
-                    "propertyKey": "reportKey",
-                    "pw": {
-                        "dependencyConditions": {},
-                        "displayName": "reportKey",
-                        "uiRepresentation": "Label-Textbox"
-                    },
-                    "srcWgtKUID": "d0af4be4f6d6484f87dda55c4fc7a00b",
-                    "type": "string",
-                    "value": ""
-                }
-            ],
+            "custom": [],
             "passthrough": []
         },
         "widgets": {

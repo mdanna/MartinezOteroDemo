@@ -57,7 +57,7 @@
     "name": "kony.ui.TextBox2",
     "parent": "EditField",
     "pf": "userwidgetmodel",
-    "placeholderskin": "sd28ced6dc4c442fac96be2c502367dd",
+    "placeholderskin": null,
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "securetextentry": false,

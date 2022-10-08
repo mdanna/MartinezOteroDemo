@@ -1,0 +1,17 @@
+CREATE TABLE `Incidencias`(
+	`causa` VARCHAR(40),
+	`CreatedBy` VARCHAR(32),
+	`CreatedDateTime` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+	`fecha` VARCHAR(40),
+	`id` BIGINT NOT NULL AUTO_INCREMENT,
+	`LastUpdatedBy` VARCHAR(32),
+	`LastUpdatedDateTime` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3),
+	`minutos` VARCHAR(40),
+	`observaciones` VARCHAR(40),
+	`SoftDeleteFlag` BOOLEAN,
+	`solucionado` BOOLEAN,
+	`titulo` VARCHAR(40),
+	PRIMARY KEY(`id`)
+);
+ALTER TABLE `Incidencias`
+	ADD CONSTRAINT `2ba34947c8879721400f185821492e` UNIQUE KEY(`id`);

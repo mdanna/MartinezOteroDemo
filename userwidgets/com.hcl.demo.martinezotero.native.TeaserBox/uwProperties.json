@@ -6,7 +6,22 @@
             "passthrough": []
         },
         "events": {
-            "custom": [],
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "eca65675136b4a6699efc2d5dfee4287",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickTeaserBox",
+                    "pw": {
+                        "displayName": "onClickTeaserBox",
+                        "toolTip": "onClickTeaserBox",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "bc34ae9a3af4491084f4f2dfd43305ec",
+                    "type": "event"
+                }
+            ],
             "passthrough": []
         },
         "groups": {

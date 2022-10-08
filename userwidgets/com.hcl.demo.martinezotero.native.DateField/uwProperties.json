@@ -2,7 +2,32 @@
     "classname": "DateField",
     "definitions": {
         "apis": {
-            "custom": [],
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ad291ab5be8b402a8fc87552a742c1ca",
+                    "paramList": [],
+                    "propertyKey": "getDate",
+                    "pw": {
+                        "displayName": "getDate",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b5ea6e95ff3849ca824ffaacffeddfa0",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "bed929b3b0424decb77afe6b43e235ac",
+                    "paramList": [],
+                    "propertyKey": "resetDate",
+                    "pw": {
+                        "displayName": "resetDate",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b5ea6e95ff3849ca824ffaacffeddfa0",
+                    "type": "event"
+                }
+            ],
             "passthrough": []
         },
         "events": {
@@ -10,7 +35,9 @@
             "passthrough": []
         },
         "groups": {
-            "apis": [],
+            "apis": [
+                "General"
+            ],
             "events": [],
             "properties": [],
             "widgets": []

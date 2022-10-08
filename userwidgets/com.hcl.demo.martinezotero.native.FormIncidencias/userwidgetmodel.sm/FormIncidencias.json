@@ -37,7 +37,8 @@
     "children": [
         "headerIncidencias",
         "flxShadow",
-        "flxContent"
+        "flxContent",
+        "cmpPhotoSelector"
     ],
     "clipbounds": true,
     "containerweight": 100,

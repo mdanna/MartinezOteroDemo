@@ -1,0 +1,2 @@
+ALTER TABLE `ObjApplicationWF`
+	ADD `SSN` VARCHAR(40);

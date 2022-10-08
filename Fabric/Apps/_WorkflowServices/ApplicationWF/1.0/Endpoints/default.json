@@ -1,0 +1,11 @@
+{
+  "apiThrottling": {},
+  "config": {
+    "object": "{\"objectService\":\"ObjSvcApplicationWF\",\"object\":\"ObjApplicationWF\",\"version\":\"1.0\",\"field\":\"WorkflowField\"}"
+  },
+  "encryptSecureInfo": false,
+  "jsonpath": false,
+  "name": "default",
+  "service": [],
+  "type": "Workflow"
+}

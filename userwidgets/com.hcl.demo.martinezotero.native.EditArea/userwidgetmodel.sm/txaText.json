@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "80%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -21,7 +21,7 @@
         2,
         2
     ],
-    "_placeholder_": "Placeholder",
+    "_placeholder_": "",
     "_skin_": "s7099f2b53d540c5a9aa35fe597c91f7",
     "_text_": "",
     "_top_": {
@@ -45,7 +45,11 @@
     "focusskin": "s1a64b98df1c430ca6913080e30930cd",
     "id": "txaText",
     "info": null,
-    "iphone": {},
+    "iphone": {
+        "psp": {
+            "placeholderSkin": "s97578cce566409f884c6af560f02edf"
+        }
+    },
     "iscustomlayout": false,
     "isvisible": true,
     "keyboardstyle": "A",
@@ -54,9 +58,9 @@
     "mode": "A",
     "name": "kony.ui.TextArea2",
     "numberofvisiblelines": 3,
-    "parent": "EditArea",
+    "parent": "flxTxaText",
     "pf": "userwidgetmodel",
-    "placeholderskin": "s97578cce566409f884c6af560f02edf",
+    "placeholderskin": null,
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "securetextentry": false,
