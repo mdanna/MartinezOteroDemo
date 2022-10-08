@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s87db6255cd9493fb72ecdfdf1656c92",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "iconLeft": "5",
+        "iconRight": "7",
+        "title": "Inicio"
+    },
+    "id": "headerHome",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "da1c9481c4044ad38676b6a39823d930",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "FormHome",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "f0edb9eb2f234abf96eadc26c9bb5231",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

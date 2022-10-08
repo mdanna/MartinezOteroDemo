@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s87db6255cd9493fb72ecdfdf1656c92",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {},
+    "id": "newThumbnailCreator",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d1676d8d57094f8bb1d7329e0dd2b228",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flsPhotoContainer",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "d0af4be4f6d6484f87dda55c4fc7a00b",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

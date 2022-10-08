@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_left_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s87db6255cd9493fb72ecdfdf1656c92",
+    "_top_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "description": "Desconectar",
+        "icon": "4",
+        "item": "Desconectar",
+        "key": "desconectar"
+    },
+    "id": "itemDesconectar",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ie2258c3b4b24d12b30f90bf34778eaa",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMenuItems",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "a9810f4c48504ce79179f48ee89457bd",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

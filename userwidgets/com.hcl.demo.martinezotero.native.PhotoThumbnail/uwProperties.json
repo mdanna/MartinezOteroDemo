@@ -1,0 +1,112 @@
+{
+    "classname": "PhotoThumbnail",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d8b674e4ecb04704850c6f789bfc35c6",
+                    "paramList": [
+                        {
+                            "name": "base64"
+                        }
+                    ],
+                    "propertyKey": "setPhoto",
+                    "pw": {
+                        "displayName": "setPhoto",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ebe0089bf25743c59cbca56c7bbf3970",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f402aee37e8b4af2ba2d60e6f72182ad",
+                    "paramList": [],
+                    "propertyKey": "initComponent",
+                    "pw": {
+                        "displayName": "initComponent",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ebe0089bf25743c59cbca56c7bbf3970",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "f371325fad084dce9a31308b8c951fb4",
+                    "originalPropertyKey": "recordKey",
+                    "propertyIndex": 1,
+                    "propertyKey": "recordKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "recordKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ebe0089bf25743c59cbca56c7bbf3970",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "dfe2baf692e14db8aa3d58ff6897fb35",
+                    "originalPropertyKey": "sectionKey",
+                    "propertyIndex": 2,
+                    "propertyKey": "sectionKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "sectionKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ebe0089bf25743c59cbca56c7bbf3970",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "a7bd58a3964741b7a6c43673df2982c3",
+                    "originalPropertyKey": "reportKey",
+                    "propertyIndex": 3,
+                    "propertyKey": "reportKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "reportKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ebe0089bf25743c59cbca56c7bbf3970",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.martinezotero.native",
+    "version": "1.0.0"
+}

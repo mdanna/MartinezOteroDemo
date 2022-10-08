@@ -1,0 +1,132 @@
+{
+    "classname": "EditField",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cb5b3244d46d4479b7288cc460a67f51",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "label",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "label",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblLabel",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ad097d40a0ea433fa57550e245a5dc92"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c73b9d9914324730b14d195f8f81f6a2",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "txtField",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "dc4cc2bcc8c046409c8490878b75ef07"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d383c6456a6944b1a68378c288060a82",
+                    "originalPropertyKey": "placeholder",
+                    "propertyIndex": 3,
+                    "propertyKey": "placeholder",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "placeholder",
+                        "isHiddenInTool": false,
+                        "srcWidget": "txtField",
+                        "supportedPlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "dc4cc2bcc8c046409c8490878b75ef07"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dddf0315603541d895fb4b7f6a229651",
+                    "originalPropertyKey": "secureTextEntry",
+                    "propertyIndex": 4,
+                    "propertyKey": "secureTextEntry",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "secureTextEntry",
+                        "isHiddenInTool": false,
+                        "srcWidget": "txtField",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "dc4cc2bcc8c046409c8490878b75ef07"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.martinezotero.native",
+    "version": "1.0.0"
+}
