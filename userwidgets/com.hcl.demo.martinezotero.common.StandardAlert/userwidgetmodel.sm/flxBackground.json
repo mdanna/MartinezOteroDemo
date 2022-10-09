@@ -22,7 +22,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s87db6255cd9493fb72ecdfdf1656c92",
+    "_skin_": "sc8f33c97f59429fad1cafd545d0da3c",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -34,24 +34,18 @@
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "headerIncidencias",
-        "flxShadow",
-        "flxContent",
-        "cmpPhotoSelector",
-        "cmpAlert"
-    ],
+    "children": [],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "FormIncidencias",
+    "id": "flxBackground",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "g6816f2eb955439685f79e0211b306dd",
+    "kuid": "a14c6ceae49a4e3495e52111b67d9be7",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "userwidgetmodel",
+    "parent": "StandardAlert",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

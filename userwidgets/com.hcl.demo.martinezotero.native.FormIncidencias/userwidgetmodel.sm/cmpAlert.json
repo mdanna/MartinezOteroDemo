@@ -1,5 +1,7 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
+    "_children_": [],
     "_height_": {
         "type": "string",
         "value": "100%"
@@ -14,7 +16,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -31,34 +33,22 @@
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "headerIncidencias",
-        "flxShadow",
-        "flxContent",
-        "cmpPhotoSelector",
-        "cmpAlert"
-    ],
-    "clipbounds": true,
-    "containerweight": 100,
-    "enablescrolling": true,
-    "id": "FormIncidencias",
+    "containerweight": 0,
+    "data": {},
+    "id": "cmpAlert",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
-    "kuid": "g6816f2eb955439685f79e0211b306dd",
-    "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "parent": "userwidgetmodel",
+    "isvisible": false,
+    "kuid": "b17bea11d66b4a3c8cc98e91a7711d1c",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "FormIncidencias",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
+    "sourceUserWidget": "aa3dfad95af34b6ebcc552275a9ee629",
+    "wType": "UserWidgetInstance",
     "zindex": 1
 }

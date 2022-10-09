@@ -1,12 +1,16 @@
 {
     "DNDConfig": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "5dp"
+    },
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "40dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "52dp"
     },
     "_margin_": [
         0,
@@ -25,33 +29,33 @@
     "_skin_": "s87db6255cd9493fb72ecdfdf1656c92",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "5dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "80%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "headerIncidencias",
-        "flxShadow",
-        "flxContent",
-        "cmpPhotoSelector",
-        "cmpAlert"
+        "lblClose"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "FormIncidencias",
+    "id": "flxClose",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "g6816f2eb955439685f79e0211b306dd",
+    "kuid": "fb21777932f74c45aa28001f62145b7f",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "userwidgetmodel",
+    "parent": "flxPopup",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

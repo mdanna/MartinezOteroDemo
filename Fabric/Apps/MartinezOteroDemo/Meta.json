@@ -1,0 +1,11 @@
+{
+  "subType" : "customapp",
+  "description" : "This app is created from Studio App MartinezOteroDemo.\r\n",
+  "version" : "1.0",
+  "objectSvcs" : [ {
+    "name" : "MartinezOteroObjSvc",
+    "version" : "1.0",
+    "etag" : "227bb02d-839d-4918-be1e-744c3c2fac0c"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

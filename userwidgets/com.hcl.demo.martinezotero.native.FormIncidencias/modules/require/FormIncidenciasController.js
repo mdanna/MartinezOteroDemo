@@ -3,6 +3,8 @@ define(function() {
   return {
     constructor: function(baseConfig, layoutConfig, pspConfig) {
       eventManager.subscribe(globals.EVENT_PHOTO_SELECTOR, ({show}) => this.view.cmpPhotoSelector.isVisible = show);
+      
+      eventManager.subscribe(globals.EVENT_SHOW_ALERT, (message) => this.view.cmpAlert.show(message));
 
       this.view.preShow = () => {
         this.resetFields();
@@ -24,7 +26,7 @@ define(function() {
 
         if(titulo && observaciones && causa && minutos && fecha !== '00/00/00'){
           voltmx.application.showLoadingScreen(null, null, constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true, null);
-          var objSvc = VMXFoundry.getObjectService("AggityObjSvc", {
+          var objSvc = VMXFoundry.getObjectService(globals.OBJECT_SERVICE, {
             "access": "online"
           });
           var dataObject = new voltmx.sdk.dto.DataObject("Incidencias");
@@ -37,15 +39,15 @@ define(function() {
           objSvc.create({dataObject}, (response) => {
             voltmx.application.dismissLoadingScreen();
             this.resetFields();
-            alert('Registro creado con éxito.');
+            eventManager.publish(globals.EVENT_SHOW_ALERT, 'Registro creado con éxito.');
             voltmx.print("Record created: " + JSON.stringify(response));
           }, (error) => {
             voltmx.application.dismissLoadingScreen();
-            alert('Error al intentar vrear registro.');
+            eventManager.publish(globals.EVENT_SHOW_ALERT, 'Error al intentar vrear registro.');
             voltmx.print("Error in record creation: " + JSON.stringify(error));
           });
         } else {
-          alert('Todos los campos son obligatorios.');
+          eventManager.publish(globals.EVENT_SHOW_ALERT, 'Todos los campos son obligatorios.');
         }
       };
     },

@@ -1,7 +1,0 @@
-{
-  "name" : "default",
-  "type" : "SAAS",
-  "encryptSecureInfo" : false,
-  "format" : "workflow",
-  "jsonpath" : false
-}
