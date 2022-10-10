@@ -6,7 +6,7 @@ define(function() {
     initGettersSetters() {},
 
     getSelection(){
-      return this.view.lbxSelector.selectedKeyValue[1];
+      return this.view.lbxSelector.selectedKeyValue ? this.view.lbxSelector.selectedKeyValue[1] : null;
     },
     
     resetSelection(){

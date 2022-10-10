@@ -1,0 +1,43 @@
+{
+    "classname": "LeftMenu",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "fa575561127e456484e16a3a2ab313fa",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onSelect",
+                    "pw": {
+                        "displayName": "onSelect",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gc34b09660034587b4339bce61290583",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.martinezotero.responsive",
+    "version": "1.0.0"
+}

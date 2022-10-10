@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "se0ee46dfaf349f485642a4b209e90f4",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "key": "fecha",
+        "sortOrder": "none",
+        "title": "Fecha"
+    },
+    "id": "headerFecha",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "idc8f8f326b942d18366b7f1a9c1b044",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxHeader",
+    "pf": "frmHome",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "d70b7cd82e2b433c96cfe5a5b96deb00",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

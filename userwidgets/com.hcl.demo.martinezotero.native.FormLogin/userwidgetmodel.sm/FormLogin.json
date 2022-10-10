@@ -36,7 +36,7 @@
     "canUpdateUI": true,
     "children": [
         "imgBackground",
-        "flxLogin"
+        "cmpLogin"
     ],
     "clipbounds": true,
     "containerweight": 100,

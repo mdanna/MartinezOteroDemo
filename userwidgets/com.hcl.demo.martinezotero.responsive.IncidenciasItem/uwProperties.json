@@ -1,0 +1,219 @@
+{
+    "classname": "IncidenciasItem",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f7537ca6d8cd435b9a552399f4c3fdfa",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "numIncidencia",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "numIncidencia",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblNumIncidencia",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "c581c05125e344f9a35bbba2a4a3dfd2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ec7ea90e6803496fa2fe34cb86882aa8",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "proyecto",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "proyecto",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblProyecto",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e0f1bd0b5e1245dca42f3d1710e6a5c5"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ce6bde73246f4c03ba6716dd2a656d79",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "solicitante",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "solicitante",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblSolicitante",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a9d08481907b40bc9982f8a1532fa820"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g23e6837876d48918a4dd326a77d38c9",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "tipo",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "tipo",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblTipo",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "fadddde665b24fc1b7890282ed5b44f0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c5e6b8994a6b4be1ba8de9e8450361ef",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "estado",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "estado",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblEstado",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "c7498b52c65a44c786d53b3ce4f913ee"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d2289f14a64241c9831dad4d473d05e9",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "titulo",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "titulo",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblTitulo",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "c815c47e2768492da5f88944c2ec05c3"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a97a0c80801843cdba06f615a3204947",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 7,
+                    "propertyKey": "causa",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "causa",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblCausa",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "j4eca4451d2340f2814ad93716a7ad88"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b6bb0ea3aeb74afe867d51ab7803dff0",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 8,
+                    "propertyKey": "solucionado",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "solucionado",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblSolucionado",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "db45f6eefe464e24b9b4be1fe4c69421"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dff4e54bb78f49188a7c2c947cf12734",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 9,
+                    "propertyKey": "fecha",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "fecha",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblFecha",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "d278967b77854e689f144d064592698d"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.martinezotero.responsive",
+    "version": "1.0.0"
+}

@@ -39,6 +39,12 @@
     "groupcells": false,
     "id": "lbxSelector",
     "info": null,
+    "inputAccessoryViewType": 1,
+    "iphone": {
+        "psp": {
+            "inputAccessoryViewType": 1
+        }
+    },
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "f19ff43051144950a28921b3c1df079a",
