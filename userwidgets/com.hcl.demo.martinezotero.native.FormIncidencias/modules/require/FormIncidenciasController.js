@@ -3,7 +3,7 @@ define(function() {
   return {
     constructor: function(baseConfig, layoutConfig, pspConfig) {
       eventManager.subscribe(globals.EVENT_PHOTO_SELECTOR, ({show}) => this.view.cmpPhotoSelector.isVisible = show);
-      
+
       eventManager.subscribe(globals.EVENT_SHOW_ALERT, (message) => this.view.cmpAlert.show(message));
 
       this.view.preShow = () => {
@@ -51,16 +51,17 @@ define(function() {
         }
       };
     },
-    
+
     initGettersSetters() {},
-    
+
     resetFields(){
-        this.view.fieldTitulo.text = '';
-        this.view.fieldObservaciones.text = '';
-        this.view.fieldCausa.resetSelection();
-        this.view.fieldSolucionado.selected = false;
-        this.view.fieldMinutos.text = '';
-        this.view.fieldFecha.resetDate();
+      this.view.fieldTitulo.text = '';
+      this.view.fieldObservaciones.text = '';
+      this.view.fieldCausa.resetSelection();
+      this.view.fieldSolucionado.selected = false;
+      this.view.fieldMinutos.text = '';
+      this.view.fieldFecha.resetDate();
+      this.view.fieldPhotoList.reset();
     }
   };
 });

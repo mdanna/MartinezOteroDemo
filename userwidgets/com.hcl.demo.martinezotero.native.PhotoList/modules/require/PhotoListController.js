@@ -31,8 +31,11 @@ define(function() {
 
     },
    
-    initGettersSetters: function() {
-
+    initGettersSetters: function() {},
+    
+    reset(){
+      this.view.flxPhotoList.removeAll();
+      this.view.flxPhotoList.width = 0;
     }
   };
 });

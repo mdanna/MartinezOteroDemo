@@ -14,18 +14,16 @@ define(function() {
       this.view.buttonCamera.onClickButton = () => eventManager.publish(globals.EVENT_PHOTO_SELECTOR, {show: false});
       this.view.buttonPhoto.onClickButton = () => {
         voltmx.phone.openMediaGallery((rawBytes) => {
-          eventManager.publish(globals.EVENT_PHOTO_SELECTOR, {show: false, rawBytes});
+          rawBytes && eventManager.publish(globals.EVENT_PHOTO_SELECTOR, {show: false, rawBytes});
         }, {mimetype: "image/*"});
       };
       this.view.buttonVideo.onClickButton = () => {
-        voltmx.phone.openMediaGallery(() => {
-          eventManager.publish(globals.EVENT_PHOTO_SELECTOR, {show: false, isVideo: true});
+        voltmx.phone.openMediaGallery((rawBytes) => {
+          rawBytes && eventManager.publish(globals.EVENT_PHOTO_SELECTOR, {show: false, isVideo: true});
         }, {mimetype: "video/*"});
       };
     },
 
-    initGettersSetters() {
-
-    }
+    initGettersSetters() {}
   };
 });

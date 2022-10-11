@@ -2,7 +2,20 @@
     "classname": "PhotoList",
     "definitions": {
         "apis": {
-            "custom": [],
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ad84c57433a74af1aba5ea6c549e57e2",
+                    "paramList": [],
+                    "propertyKey": "reset",
+                    "pw": {
+                        "displayName": "reset",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "beccd48f17a44d75ae4e74841a18aa48",
+                    "type": "event"
+                }
+            ],
             "passthrough": []
         },
         "events": {
@@ -10,7 +23,9 @@
             "passthrough": []
         },
         "groups": {
-            "apis": [],
+            "apis": [
+                "General"
+            ],
             "events": [],
             "properties": [],
             "widgets": []
